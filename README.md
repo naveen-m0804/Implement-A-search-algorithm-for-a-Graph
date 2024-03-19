@@ -49,6 +49,8 @@ A* Search Algorithm
     end (while loop)
 
 <h2>PROGRAM</h2>
+
+
 ```python 
 import heapq
 
@@ -92,8 +94,6 @@ class Graph:
                     if neighbor not in [item[1] for item in open_set]:
                         heapq.heappush(open_set, (f_score[neighbor], neighbor))
         return None
-
-# Example usage
 if __name__ == "__main__":
     graph = Graph()
     graph.add_vertex('A', {'B': 5, 'C': 10})
