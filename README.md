@@ -26,8 +26,7 @@ A* Search Algorithm
         i) if successor is the goal, stop search
         
         ii) else, compute both g and h for successor
-          successor.g = q.g + distance between 
-                              successor and q
+          successor.g = q.g + distance between  successor and q
           successor.h = distance from goal to 
           successor (This can be done using many 
           ways, we will discuss three heuristics- 
