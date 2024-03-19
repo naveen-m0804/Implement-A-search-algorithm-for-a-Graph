@@ -12,6 +12,7 @@ A* Search Algorithm
     list (you can leave its f at zero)
 
 3.  while the open list is not empty
+
     a) find the node with the least f on 
        the open list, call it "q"
 
@@ -21,6 +22,7 @@ A* Search Algorithm
        parents to q
    
     d) for each successor
+    
         i) if successor is the goal, stop search
         
         ii) else, compute both g and h for successor
