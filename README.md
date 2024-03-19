@@ -179,3 +179,7 @@ G 0 <br>
 <h2>Sample Output</h2>
 <hr>
 Path found: ['A', 'E', 'D', 'G']
+
+
+## Result:
+Thus the A* implementation is successfull executed.
